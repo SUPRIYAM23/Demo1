@@ -1,6 +1,8 @@
 package Samples.Sample1;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -17,8 +19,8 @@ public class NewTest {
 	  WebDriver driver = new ChromeDriver();
 	driver.get("http://www.google.com");	 
 	  driver.navigate().to("http://www.friends2support.org/index.aspx");
-	 driver.findElement(By.linkText("Forgot Password")).click();
-	 Assert.assertEquals("http://www.friends2support.org/inner/news/forgotPassword.aspx", driver.getCurrentUrl());
+	 driver.findElement(By.linkText("Forgot Password?")).click();
+	 AssertJUnit.assertEquals("http://www.friends2support.org/inner/news/forgotPassword.aspx", driver.getCurrentUrl());
   }
   @BeforeTest
   public void beforeTest() {
