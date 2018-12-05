@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="suite" thread-count="2" >
+<parameter name="username" value ="mngr165749" />
+<parameter name="password" value ="vazUgEd" />
+
+    <test name="Test">
+        <classes>
+            <class name="GuruLogin"/>
+        </classes>
+    </test>
+</suite>
+<!-- Guru99 Day 1  assignment with implementation of parameterization using @parameters-->
