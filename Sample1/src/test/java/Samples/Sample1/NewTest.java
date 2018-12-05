@@ -14,10 +14,12 @@ import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class NewTest {
+	WebDriver driver = new ChromeDriver();
+	
   @Test
   public void f() {
-	  WebDriver driver = new ChromeDriver();
-	driver.get("http://www.google.com");	 
+	  
+	  driver.get("http://www.google.com");
 	  driver.navigate().to("http://www.friends2support.org/index.aspx");
 	 driver.findElement(By.linkText("Forgot Password?")).click();
 	 AssertJUnit.assertEquals("http://www.friends2support.org/inner/news/forgotPassword.aspx", driver.getCurrentUrl());
@@ -30,6 +32,7 @@ public class NewTest {
 
   @AfterTest
   public void afterTest() {
+	  driver.close(;)
   }
 
 }
