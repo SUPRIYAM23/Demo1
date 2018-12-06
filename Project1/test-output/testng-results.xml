@@ -2,24 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-12-05T23:20:42Z" name="Default suite" finished-at="2018-12-05T23:20:45Z" duration-ms="2561">
+  <suite started-at="2018-12-06T16:07:16Z" name="GuruTestSuite" finished-at="2018-12-06T16:07:19Z" duration-ms="3135">
     <groups>
     </groups>
-    <test started-at="2018-12-05T23:20:42Z" name="Default test" finished-at="2018-12-05T23:20:45Z" duration-ms="2561">
-      <class name="ProjectKickOff.Project1.Day1">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:ProjectKickOff.Project1.Day1@a8c1f44]" started-at="2018-12-05T23:20:42Z" name="beforeTest" finished-at="2018-12-05T23:20:42Z" duration-ms="14" status="PASS">
+    <test started-at="2018-12-06T16:07:16Z" name="Test" finished-at="2018-12-06T16:07:19Z" duration-ms="3135">
+      <class name="ProjectKickOff.Project1.Day3">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:ProjectKickOff.Project1.Day3@7a8fa663]" started-at="2018-12-06T16:07:16Z" name="beforeTest" finished-at="2018-12-06T16:07:16Z" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="loginCheck()[pri:0, instance:ProjectKickOff.Project1.Day1@a8c1f44]" started-at="2018-12-05T23:20:43Z" name="loginCheck" finished-at="2018-12-05T23:20:45Z" duration-ms="2405" status="PASS">
+        <test-method signature="loginCheck(java.lang.String, java.lang.String)[pri:0, instance:ProjectKickOff.Project1.Day3@7a8fa663]" started-at="2018-12-06T16:07:16Z" name="loginCheck" finished-at="2018-12-06T16:07:19Z" duration-ms="2951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr165749]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vazUgEd]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCheck -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:ProjectKickOff.Project1.Day1@a8c1f44]" started-at="2018-12-05T23:20:45Z" name="afterTest" finished-at="2018-12-05T23:20:45Z" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:ProjectKickOff.Project1.Day3@7a8fa663]" started-at="2018-12-06T16:07:19Z" name="afterTest" finished-at="2018-12-06T16:07:19Z" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- ProjectKickOff.Project1.Day1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- ProjectKickOff.Project1.Day3 -->
+    </test> <!-- Test -->
+  </suite> <!-- GuruTestSuite -->
 </testng-results>
